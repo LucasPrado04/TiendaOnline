@@ -1,0 +1,114 @@
+.container_qs{
+    background-color: rgb(255, 187, 0);
+    display:flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 10px;
+}
+
+
+.card-title .card-texte{
+    color: black;
+}
+
+.txt_quesomos{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+}
+
+.container_qs img{
+    width: 180x;
+    height: 180px;
+    padding-right: 80px;
+}
+
+h5{
+    font-size: 35px;
+    color:rgb(0, 0, 0)
+}
+
+
+
+.redes img{
+    width: 30px;
+    height: 30px;
+}
+
+/*----------------------------------------------------------------*/
+
+
+#sectionQuienesSomos2{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+    #tarjetasStaff_2{
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.952);
+    }
+
+    .tarjetaStaff_2{
+        
+        margin: 2%;
+        background-color: #03b8b8;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+        padding: 10px;
+        align-items: center;
+
+    }
+
+    .links a i{
+        color: rgb(0, 0, 0);
+        padding-right: 10px;
+    }
+
+    .card-texte{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .links{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5px;
+        font-size: 22px;
+    }
+
+        .links a i:hover{
+            transform: scale(1.3);
+            transform:perspective(200);
+            color: rgb(238, 110, 6);
+            transition: .6s;
+        }
+
+    .card-img-top{
+        width: 300px;
+        height: 300px;  
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+
+    @media (max-width: 600px) {
+        .textoTarjeta p{
+            display: none; 
+        }
+    }
+
+    @media(max-width: 1000px){
+        .que_logo img{
+            display: none;
+        }
+    }

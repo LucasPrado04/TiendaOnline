@@ -1,0 +1,108 @@
+.cont-perfil{
+    text-align: center;
+    font-size: 86px;
+    color: oklch(92.65% 0.1653 91.06);
+    background-color: rgba(255, 196, 0, 0.548);
+    margin-top: 5px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.cont-perfil h1{
+    color: oklch(92.65% 0.1653 91.06);
+    font-size: 86px;
+}
+
+.profile{
+    background-color: rgb(255, 196, 0);
+    margin: 10px 250px 15px 250px;
+    border-radius: 15px;
+}
+
+.formuperfil{
+    margin: 10px 10px 10px 10px;
+    padding: 15px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formuperfil input{
+    border-radius: 10px;
+    background-color: #c5c5c5; /* Color de fondo gris */ 
+    color: #4e4e4e; /* Color del texto sepia */ 
+    border: 1px solid #4e4e4e; /* Borde ligero */ 
+    font-size: 25px;
+    padding: 0 0 3px 6px; 
+    font-family: "M PLUS Code Latin", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.formuperfil p{
+    margin-bottom: 2px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 19px;
+}
+
+.btnperfil{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.profile div button{
+
+    font-size: 25px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: #00aeff;
+    color: blue;
+}
+
+.btnperfil button img{
+    width: 50px;
+    height: auto;
+}
+
+.profileedit input{
+    border-radius: 10px;
+    color: black;
+    font-size: 25px;
+    padding: 0 0 3px 6px; 
+    font-family: "M PLUS Code Latin", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.msg_error{
+    margin: 0, 10%, 0, 10%;
+    background-color: red;
+}
+
+@media (max-width: 925px){
+    section .profile{
+        margin: 10px 150px 15px 150px;
+    }
+}
+
+@media (max-width:760px){
+    section .profile{
+        margin: 10px 80px 15px 80px;
+    }
+}
+
+@media (max-width:520px){
+    section .profile{
+        margin: 10px 30px 15px 30px;
+    }
+
+    .cont-perfil h1{
+        font-size: 60px;
+    }
+}

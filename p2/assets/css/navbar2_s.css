@@ -1,0 +1,85 @@
+/*<------------ Header 2 - 3 ------------>*/
+
+.nav_usuario {
+    background-color: rgb(255, 136, 0);
+    display: flex;
+    justify-content: flex-end; /* Ajustamos para que los elementos se distribuyan entre los extremos */
+    align-items: center; /* Alineamos verticalmente los elementos */
+    padding: 0 20px; /* Agregamos padding para los márgenes */
+}
+
+.nav_usuario .navbar-nav #navbarDropdownMenuLink {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.menuimgs .dropdown-item img {
+    width: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.carrito_user .carro img {
+    width: 25px;
+    display: inline-block;
+}
+
+.carrito_usuario {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between; /* Aseguramos que los elementos estén distribuidos */
+    align-items: center;
+    width: 100%; /* Aseguramos que ocupe todo el ancho */
+}
+
+.carrito_usuario .carrito_user {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.carrito_user .tuname {
+    display: flex;
+    justify-content: flex-start; /* Alineamos a la izquierda */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.carrito_user .tuname a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-weight: 400;
+}
+
+.carro a {
+    color: black;
+}
+
+.carrito_usuario .carrito_user ul {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: bold;
+    font-weight: 400;
+}
+
+.menuimgs li:hover a {
+    background-color: rgb(255, 136, 0);
+}
+
+.carroimg {
+    display: flex;
+    justify-content: flex-start;
+}

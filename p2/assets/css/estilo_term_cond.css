@@ -1,0 +1,27 @@
+#body_term{
+    background-color: rgba(235, 143, 4, 0.952);
+}
+#term_cond{
+    font-size: 40px;
+    font-family:'Lucida Grande';
+    text-align: center;
+    color: rgb(15, 18, 20);
+    
+}
+#todo_term #term_cond{
+    padding-top: 30px;
+    text-align: justify;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+#parrafo_term{
+    color: rgb(15, 18, 20);
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+#todo_term{
+    background-color: rgba(235, 143, 4, 0.952);
+}

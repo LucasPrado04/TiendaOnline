@@ -1,0 +1,297 @@
+
+.all-filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; /* Espacio entre los elementos */
+    margin-bottom: 5px;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+.ex-but {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre los botones */
+    flex-wrap: wrap;
+}
+
+.dropdown{
+    margin-left: 40px !important;
+}
+
+.button-agregar,
+.button-eliminar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.well-all{
+    background-color: rgba(255, 230, 0, 0.438);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.well-wine{
+    background-color: rgba(245, 0, 53, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.well-vodka{
+    background-color: rgba(255, 255, 255, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+
+.well-fernet{
+    background-color: rgba(1, 146, 33, 0.479);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.well-gancia{
+    background-color: rgba(255, 0, 0, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar{
+    height: 70px;
+    padding: 0px 10px 15px 10px;
+}
+
+.well-all h1{
+    font-size: 52px;
+    color: #fdf6ce;
+}
+
+.well-fernet h1{
+    font-size: 52px;
+    color: rgb(255, 255, 255);
+}
+
+.well-gancia h1{
+    font-size: 52px;
+    color: rgb(255, 255, 255);
+}
+
+.well-wine h1{
+    font-size: 52px;
+    color: white;
+}
+
+.well-vodka h1{
+    font-size: 52px;
+    color: black;
+}
+
+
+#tablaUsuarios2{
+    margin-top: 5px;
+}
+
+#tablaUsuarios2 th{
+    background-color: rgb(240, 157, 3);
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgb(255, 238, 212);
+}
+
+
+.ex-wine{
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre los botones */
+} 
+
+.table-responsive{
+    padding: 0px 40px 0 40px;
+}
+
+.container-table{
+    background-color: rgb(253, 237, 213);
+    font-size: 18px;
+}
+
+.container-table tr{
+    margin-top: 30px;
+}
+
+.container-table tr td img{
+    height: 100px; 
+    width: 100px; 
+    object-fit: contain; 
+    margin: 8px -8px;
+}
+
+.class_btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-filters .formulariz{
+    width: 800px;
+}
+
+#tablaUsuarios2{
+    background-color: #fdf6ce;
+}
+ /* Responsive productos */
+@media screen and (max-width: 1100px){
+    #tablaUsuarios2 tr{
+        font-size: 15px;
+    }
+
+    .idrow{
+        display: none;
+    }
+
+    .idrowhead{
+        display: none;
+    }
+}
+
+@media  (max-width: 1025px) {
+    .imgrow{
+        display: none;
+    }
+
+    .imgrowhead{
+        display: none;
+    }
+
+    #tablaUsuarios2 th{
+        font-size: 17px;
+    }
+
+    .all-filters{
+        flex-direction: column;
+    }
+
+    .dropdown, .ex-but{
+        width: 100% !important;
+        justify-content: center !important;
+        margin-top: 10px !important;
+        order: 1 !important;
+    }
+
+    .dropdown{
+        margin-left: 0px !important;
+    }
+
+    .formulariz{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 70px;
+    }
+
+    .formulariz{
+        order: 0;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .formulariz{
+        width: 70%;
+        margin-bottom: 10px;
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .elimrow{
+        display: none;
+    }
+
+    .elimrowhead{
+        display: none;
+    }
+
+    .container-table tr{
+        font-size: 12px;
+    }
+
+    #tablaUsuarios2 th{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 760px){
+    .table-responsive{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .formulariz{
+        width: 100% !important;
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    #tablaUsuarios2 th{
+        font-size: 15px;
+    }
+
+    .container-table tr{
+        font-size: 10px;
+    }
+
+    .table-responsive{
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+
+    .well-all h1{
+        font-size: 35px;
+    }
+
+    .formulariz{
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .formulariz{
+        width: 100% !important;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 462px){
+    .well-all h1{
+        font-size: 30px;
+        background-color: transparent !important;
+    }
+}
+
+@media (max-width: 440px){
+    .elicols{
+        display: none;
+    }
+}

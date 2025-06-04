@@ -1,0 +1,94 @@
+/* Estilos básicos */
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(241, 197, 0, 0.432);
+    margin-top: 10px;
+}
+
+.heading h1 {
+    color: blanchedalmond;
+    font-size: 52px;
+}
+
+.fondotabla td {
+    background-color: rgb(238, 220, 194);
+    font-size: 20px;
+    padding-top: 10px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+#totald {
+    color: rgb(255, 81, 0);
+}
+
+#headUsuarios {
+    background-color: rgb(255, 153, 0);
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    color: blanchedalmond;
+}
+
+#headUsuarios td {
+    background-color: rgb(255, 153, 0);
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+    color: blanchedalmond;
+}
+
+#bodyUser {
+    background-color: blanchedalmond;
+}
+
+
+.isi {
+    padding: 15px; /* Espaciado interno */ 
+    font-size: 16px; /* Tamaño de la fuente */ 
+    color: #a8a8a8; /* Color del texto */ 
+    text-align: center; /* Alinear texto al centro */ 
+    margin-top: 20px; /* Espacio superior */ 
+    margin-bottom: 20px; /* Espacio inferior */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra del div */
+    font-size: 24px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    align-items: center; /* Centra los botones verticalmente */
+    gap: 10px; /* Espacio entre los botones */
+    margin-bottom: 120px;
+    padding-top: 50px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .teibol form{
+        margin: 0px 5px 0px 5px;
+    }
+
+    .borrow {
+        display: none;
+    }
+}
+
+@media (max-width: 410px) {
+    .heading h1 {
+        font-size: 42px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .borrow2 {
+        display: none;
+    }
+}
+

@@ -1,0 +1,54 @@
+.containers .titulo-modif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(241, 197, 0, 0.432);
+    margin-top: 10px;
+}
+
+.containers .titulo-modif h1{
+    color: blanchedalmond;
+    font-size: 52px;
+}
+
+.form-all{
+    background-color: rgb(255, 174, 0);
+    margin: 15px 350px 15px 350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.form-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px 10px 10px 15px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.imgstill img{
+    width: 400px;
+    height: 400px;
+}
+
+.form-all label{
+    padding-top: 12px;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-style: bond;
+}
+
+@media (max-width: 580px){
+    .containers .titulo-modif h1{
+        font-size: 25px;
+    }
+}

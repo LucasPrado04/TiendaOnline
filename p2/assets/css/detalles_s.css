@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+#detailh1{
+    text-align: center;
+    font-size: 86px;
+    color: oklch(92.65% 0.1653 91.06);
+    background-color: rgba(255, 196, 0, 0.548);
+    margin-top: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+#detaller{
+    background-color: darkorange;
+}
+
+.contenedor_detail, .cont_prods {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor_detail p{
+    font-family: "Varela Round", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.cont_prods table{
+    background-color: aliceblue;
+    font-family: "Varela Round", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+
+.cont_prods table, th, td {
+    border: 1px solid black;
+}
+
+.cont_prods th, td {
+    padding: 10px;
+    text-align: left;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#cierreventad form{
+    background-color: darkorange;
+    padding: 20px 80px 20px 80px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.contains{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cierreventad label{
+
+    font-family: "Varela Round", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}

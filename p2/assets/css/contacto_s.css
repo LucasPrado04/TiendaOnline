@@ -1,0 +1,199 @@
+.p_form {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 196, 0);
+    margin-bottom: 20px;
+    background-color: rgba(255, 208, 0, 0.514);
+    font-family: 'Kanit', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.aviso1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 196, 0);
+    margin-top: 20px;
+}
+
+
+.p_form1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 35px;
+    color: blanchedalmond;
+}
+
+.p_form h1{
+    font-size: 60px;
+}
+
+.form-lbl label{
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+#btn_sub{
+    margin-left: 30%;
+    width: 200px;
+    background-color: rgb(7, 69, 151);
+    border-color: rgb(255, 238, 0);
+    align-items: center;
+    color: blanchedalmond;
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+}
+
+
+.redes h2{
+    color: blanchedalmond;
+}
+
+.redes h2 img{
+    width: 30px;
+    height: 30px;
+    padding-bottom: 5px;
+}
+
+.contpadre h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit';
+    font-size: 60px;
+    color:rgb(240, 207, 165);
+}
+
+.contpadre p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.contpadre {
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto 15px;
+    align-items: center;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container_consultas-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_consultas-form {
+    margin: 10px 0 10px 0;
+    padding: 10px 50px 10px 50px;
+}
+
+.container_consultas-form label{
+    font-family: "Architects Daughter", "bold";
+    font-size: 25px;
+}
+
+.formulariocons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-input{
+    background-color: rgba(3, 148, 100, 0.87);
+    width: 420px;
+    border-radius: 12px;
+    font-family: 'Lexend';
+    font-size: 40px;
+    border: 4px solid rgba(0, 0, 0, 0.747);
+    color: rgba(0, 0, 0, 0.705);
+}
+
+input[type="submit"]:active{
+    background-color: red;
+}
+
+/* Estilo general para la sección de redes sociales */
+.redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 80px; /* Espacio entre los elementos del grid */
+    color: blanchedalmond;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+
+#clasvalid{
+    margin: 20px 20px 20px 20px;
+}
+
+@media (max-width: 1220px) {
+    .p_form h1{
+        font-size: 50px;
+    } 
+
+    .p_form1 div p{
+        font-size: 50px;
+    }
+}
+
+/* Para pantallas de 1000px o menos */
+@media (max-width: 1000px) {
+    .redes {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    }
+
+    .p_form h1{
+        font-size: 40px;
+    }
+
+    .p_form1 div p{
+        font-size: 40px;
+    }
+}
+
+/* Para pantallas de 800px o menos */
+@media (max-width: 830px) {
+    .redes {
+        grid-template-columns: 1fr; /* Una columna */
+        gap: 10px; /* Reducir el espacio entre los elementos */
+    }
+
+    .p_form h1{
+        font-size: 30px;
+    }
+    
+    .p_form1 div p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 680px) {
+    .redes {
+        grid-template-columns: 1fr; /* Una columna */
+        gap: 10px; /* Reducir el espacio entre los elementos */
+    }
+    
+    .p_form h1{
+        font-size: 20px;
+    }
+    
+    .p_form1 div p{
+        font-size: 20px;
+    }
+}
+

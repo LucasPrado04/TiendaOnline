@@ -1,0 +1,163 @@
+.principal {
+    margin: 0;
+}
+
+/*<--------------------------------CARRUSEL--------------------------------->*/
+.slide img {
+    height: 65vh; /* Ajusta la altura según tus necesidades */
+}
+
+/*<--------------------------------CUERPO--------------------------------->*/
+.container1 {
+    display: flex;
+    background-color: rgb(221, 107, 0);
+    flex-direction: row; /* Default to row direction */
+}
+
+.img-principal img {
+    width: 550px;
+    height: 600;
+    padding: 15px;
+}
+
+.textofichas {
+    padding-left: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 50px;
+    color: black;
+}
+
+.textofichas h1 {
+    font-size: 40px;
+}
+
+.textofichas2 h1 {
+    font-size: 40px;
+}
+
+.textofichas p {
+    font-size: 20px;
+    color: white;
+}
+
+.textofichas2 p {
+    font-size: 20px;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.container2 h1 {
+    color: rgb(221, 107, 0);
+}
+
+.container2 .textofichas {
+    padding-top: 90px;
+    padding-left: 145px;
+}
+
+.textofichas2 {
+    padding-top: 90px;
+    padding-left: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.productos_cats h1{
+    margin: 10px 0 15px 0;
+    background-color: rgba(255, 217, 1, 0.281);
+    color: rgb(255, 166, 0);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.cats{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Cambiado a space-around para reducir espacio entre enlaces */
+    margin: 2px 20px 15px 20px;
+}
+
+.cats a{
+    position: relative;
+    font-size: 40px;
+    color: rgb(252, 80, 0);
+    text-decoration: none; /* Quitar la línea de abajo */
+    margin-right: 5px; /* Reducir aún más el espacio entre enlaces */
+    transition: color 0.5s; /* Cambio gradual de color */
+}
+
+.cats a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: rgb(255, 208, 0); /* Color de la barra */
+    transition: width 0.5s ease, background-color 0.5s ease;
+}
+
+.cats a:hover::after{
+    width: 100%; 
+    left: 0;
+    background: rgb(255, 208, 0); /* Cambiar al color deseado al colocar el cursor encima */
+}
+
+.cats a:hover{
+    color: rgb(255, 208, 0); /* Cambiar al color deseado al colocar el cursor encima */
+}
+
+
+
+
+
+/*RESPONSIVE*/
+@media(max-width: 960px) {
+    .container1 {
+        flex-direction: column; /* Change to column direction */
+        align-items: center; /* Center align items vertically */
+    }
+
+    .textofichas {
+        display: flex;
+        flex-direction: column; /* Ensure text is in a column */
+        align-items: center; /* Center align text horizontally */
+        text-align: center; /* Center align text content */
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .textofichas2 {
+        display: flex;
+        flex-direction: column; /* Ensure text is in a column */
+        align-items: center; /* Center align text horizontally */
+        text-align: center; /* Center align text content */
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-bottom: 40px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .img-principal img {
+        display: none;
+    }
+
+    .textofichas2 h1 {
+        display: flex;
+        margin-left: 0;
+        justify-content: center;
+    }
+}

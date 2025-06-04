@@ -1,0 +1,181 @@
+.container_user .titulo_user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(241, 197, 0, 0.432);
+    margin-top: 10px;
+}
+
+.ex-user{
+    margin-right: 40px !important;
+}
+
+.container_user .titulo_user h1{
+    color: blanchedalmond;
+    font-size: 52px; 
+}
+
+.all-filters_user{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 15px 0 5px 0;
+}
+
+.nav-add_user{
+    margin-left: 40px;
+}
+
+.formulario_user{
+    flex: 1;
+    margin-left: 120px;
+}
+
+.busqueda_s{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#tablaUsuarios{
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.no_users{
+    margin: 60px 0 100px 40px;
+}
+
+.no_users h1{
+    color: rgba(163, 163, 163, 0.671);
+}
+
+ /* Responsive usuarios */
+@media screen and (max-width: 1100px){
+    #tablaUsuarios2 tr{
+        font-size: 15px;
+    }
+
+    .emailrow{
+        display: none;
+    }
+
+    .emailrowhead{
+        display: none;
+    }
+}
+
+@media  (max-width: 1050px) {
+    .idrow{
+        display: none;
+    }
+
+    .idrowhead{
+        display: none;
+    }
+
+    #tablaUsuarios2 th{
+        font-size: 17px;
+    }
+
+    .all-filters_user{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropz, .formulario_user, .ex-user{
+        width: 100% !important;
+        justify-content: center !important;
+        margin-top: 10px !important;
+    }
+
+    .dropz{
+        margin-left: 0px !important;
+        order: 0 !important;
+        justify-content: center;
+        display: flex;
+    }
+    .nav-add_user{
+        margin-left: 0px !important;
+    }
+
+    .formulario_user{
+        order: 1;
+    }
+
+    .ex-user{
+        order: 2 !important;
+        margin-top: 10px;
+        justify-content: center !important;
+        display: flex;
+        margin-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .formulario_user{
+        width: 70%;
+        margin-bottom: 10px;
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .nombrerow{
+        display: none;
+    }
+
+    .nombrerowhead{
+        display: none;
+    }
+
+    .container-user tr{
+        font-size: 12px;
+    }
+
+    #tablaUsuarios2 th{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 760px){
+    .table-responsive{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .formulario_user{
+        width: 100% !important;
+        margin-left: 35px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    #tablaUsuarios2 th{
+        font-size: 15px;
+    }
+
+    .container-user tr{
+        font-size: 10px;
+    }
+
+    .table-responsive{
+        padding-left: 2px !important;
+        padding-right: 2px !important;
+    }
+
+    .titulo_user h1{
+        font-size: 35px;
+    }
+
+    .formulario_user{
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .formulario_user{
+        width: 100% !important;
+        margin-left: 5px;
+    }
+}

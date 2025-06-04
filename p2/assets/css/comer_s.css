@@ -1,0 +1,190 @@
+.comer_class h1{
+    text-align: center;
+    font-size: 86px;
+    color: oklch(92.65% 0.1653 91.06);
+    background-color: rgba(255, 196, 0, 0.548);
+    margin-top: 5px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.card{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    width: 35rem;
+    justify-content: center;
+    align-items: center;   
+    text-align: center; 
+    background-color: #059c9c !important;
+
+}
+
+#comer_div{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */ 
+    gap: 20px; /* Espacio entre las tarjetas */ 
+    justify-items: center; /* Centra las tarjetas horizontalmente */
+}
+
+.card { 
+    width: 90%; /* Ajusta el ancho según sea necesario */ 
+}
+
+#qr{
+    width: 150px;
+    height: 150px;
+}
+
+#card-qr{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.card-text{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+}
+
+.card-p{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.card .card-img-top{
+    object-fit: cover; /* Mantiene la proporción y cubre el contenedor */
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#text_contacto{
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    display: flex;
+    font-family: "Kanit", serif;
+    font-size: 40px;
+}
+
+.guia {
+    width: 100%;
+    height: 500px;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 196, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+.como-comprar {
+    width: 40%;
+    font-weight: bold;
+}
+
+.comprar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+/* Gif */
+.gif {
+    width: 40%;
+    margin: 20px 25px 0 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 15px 19px 38px, rgba(0, 0, 0, 0.22) 15px 15px 12px;
+}
+
+.gif img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.cc {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+@media (max-width: 1170px) {
+    .card-p{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 990px){
+    .card-p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    #comer_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: auto; /* Mantén el tamaño original de las tarjetas */
+        max-width: 90%; /* Asegura que las tarjetas no sean más anchas que el 90% del contenedor */
+        margin-bottom: 20px; /* Añade espacio entre las tarjetas */
+    }
+}
+
+@media (max-width: 700px){
+    .gif{
+        display: none;
+    }
+
+    .como-comprar{
+        display: flex;
+        justify-content: center;
+    }
+
+    .comprar {
+        border-bottom: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+    }
+
+    .card-text{
+        font-size: 25px;
+    }
+
+    .card-p{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 660px){
+    #text_contacto p, #text_contacto a{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 534px){
+    .card-p{
+        font-size: 15px;
+    }
+
+    .comer_class h1{
+        font-size: 50px;
+    }
+
+    #text_contacto p, #text_contacto a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+    }
+}

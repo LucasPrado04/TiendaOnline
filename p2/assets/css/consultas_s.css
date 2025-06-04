@@ -1,0 +1,127 @@
+.consulta-class{
+    text-align: center;
+    font-size: 86px;
+    color: oklch(92.65% 0.1653 91.06);
+    background-color: rgba(255, 196, 0, 0.548);
+    margin-top: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.sec-consulta{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.full-table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0 40px 0 40px;
+    margin-bottom: 10px;
+}
+
+.head-table tr{
+    background-color: rgb(247, 210, 0);
+    color: rgb(15, 9, 0);
+    font-size: 20px;
+}
+
+.body-consulta{
+    background-color: blanchedalmond;
+    font-size: 18px;
+}
+
+.body-consulta td{
+    border: 2px solid black;
+}
+
+.ampliar-consulta{
+    background-color: rgb(255, 208, 0);
+    justify-self: center;
+    margin: 0 60px;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+}
+
+.consulta-class {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.ampliar-consulta p {
+    margin: 10px 0;
+}
+
+/* Estilo del botón */
+.btn-t {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+
+.btn-t:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Ajuste del botón leido */
+.btn-leido {
+    width: 120px; /* Ancho del botón */
+    transform: translateX(0); /* Centrar el botón */
+    margin-top: 20px;
+    margin-left:40px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:940){
+    .emailrow{
+        display:none;
+    }
+}
+
+@media (max-width:800px){
+    .mensajerow{
+        display: none;
+    }
+    .mensajerows{
+        display: none;
+    }
+}
+
+@media (max-width:670px){
+    .telrow{
+        display:none;
+    }
+
+    .btn-fulc{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .telrows{
+        display: none;
+    }
+}
+
+@media (max-width:600){
+    .nombrerow{
+        display:none;
+    }
+}
+
+@media (max-width: 500px){
+    .sec-consulta{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
