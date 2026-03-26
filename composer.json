@@ -1,0 +1,15 @@
+{
+    "description": "Tienda Online AS Drinks Store",
+    "require": {
+        "php": "^8.1",
+        "ext-mysqli": "*"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        },
+        "platform": {
+            "php": "8.1.0"
+        }
+    }
+}

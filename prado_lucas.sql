@@ -53,8 +53,8 @@ CREATE TABLE `consultas` (
   `nombre` varchar(30) NOT NULL,
   `email` varchar(30) NOT NULL,
   `numero` int(10) NOT NULL,
-  `mensaje` varchar(800) NOT NULL,
-  `leido` varchar(800) NOT NULL DEFAULT 'NO'
+  `mensaje` varchar(30) NOT NULL,
+  `leido` varchar(30) NOT NULL DEFAULT 'NO'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
